@@ -1,0 +1,18 @@
+# Ignore Java class files
+*.class
+
+# Ignore build folders
+bin/
+build/
+target/
+out/
+
+# Ignore IDE files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# Ignore logs
+*.log

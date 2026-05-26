@@ -13,6 +13,7 @@ public class javaConstructor {
 
     }
     public static void main(String[] args) {
+        javaConstructor s1=new javaConstructor("asim","ichalkaranji");
 
 
 }
