@@ -1,18 +1,18 @@
 public class ParameterizedCon {
-    String bikeName;
+ 
+    String bikename;
     int price;
-ParameterizedCon(String bn,int p){
-    this.price=p;
-    this.bikeName=bn;
-    System.out.println("I am back bro yees its me constructor");
+    ParameterizedCon(String bk,int pri){
+        this.bikename=bk;
+        this.price=pri;
 
-}
-void show(){
-    System.out.println("The bike price is => "+price);
-    System.out.println("the bike name is =>"+bikeName);
-}
+    }
+    void show(){
+        System.out.println("bik name is - "+bikename+ " and the price is "+price);
+        
+    }
     public static void main(String[] args) {
-        ParameterizedCon Bk=new ParameterizedCon("Tvs_Ronnie", 15000);
-        Bk.show();
+        ParameterizedCon Bikinf= new ParameterizedCon(" Splendor ", 1000);
+        Bikinf.show();
     }
 }

@@ -15,8 +15,9 @@ public class MethodOverloading {
      public static void main(String[] args) {
         MethodOverloading obj1=new MethodOverloading();
         System.out.println("The addition "+obj1.add(1.55, 52.2));
-        System.out.println("The addition of "+obj1.add(2, 55,65));
+        System.out.println("The addition of"+obj1.add(2, 55,65));
      }
+     
 
 
 }
